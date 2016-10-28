@@ -1,0 +1,51 @@
+// TASKS:
+// 1. Add a new action of type notification, with parameters title and message (string values)
+// 2. Set action property of the first action to null and remove the link property 
+
+{
+   "_id": "E241AD11-1557-4FD3-B21F-97D0FA4230C7",
+   "_rev": "13-2c82a95b6558a4c6144b58f59720edc7",
+   "fp_type": "ibeacon",
+   "fp_owner": "global",
+   "fp_ext_id": "bstg_autogen_1445345099899_62005859",
+   "uuid": "B9407F30-F5F8-466E-AFF9-25556B57FE6D",
+   "major": 37100,
+   "minor": 51516,
+   "label": "Icy Bond",
+
+   "actions": [
+       {
+           "type": "home-block",
+           "params": {
+               "appearance": "text",
+               "action": null
+           }
+       },
+
+       {
+           "type": "presence",
+           "params": {
+               "interval": 15
+           }
+       },
+
+       {
+          "type": "notification",
+          "params": {
+            "title": "text",
+            "message": "text"
+          }
+       }
+   ],
+
+   "fp_last_changes": {
+       "timestamp": 1445437699,
+       "source": "dataloader_api",
+       "host": "localhost.backstage.4pax.com"
+   },
+
+   "location": {
+       "lat": -4.232423,
+       "lng": 12.523098
+   }
+}
